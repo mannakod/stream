@@ -1,0 +1,10 @@
+mkdir -p /usr/lib/jvm
+   cd /usr/lib/jvm
+   scp -rp root@192.168.72.41:/usr/lib/jvm/* .
+   ln -s -b /usr/lib/jvm/jdk1.8.0_121/jre/bin/java /etc/alternatives/java
+   ln -s -b /usr/lib/jvm/jdk1.8.0_121/jre/bin/java /usr/bin/java
+   java -version
+
+
+This is crontab -l in rajiv user
+*/2 * * * * /srv/icmapper/runScript.sh
