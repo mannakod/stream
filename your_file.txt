@@ -1,0 +1,5 @@
+Registration email was sent to sedag34785@rohoza.com. To complete registration, you must run:
+
+  megareg --verify XIKD+thxwIWQWXLM84wVHw==:07oOVAAAAAAAAAAA0iwEiA==:ENrPmy1yIBc @LINK@
+
+(Where @LINK@ is registration link from the 'MEGA Signup' email)

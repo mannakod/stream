@@ -1,0 +1,2 @@
+echo "code: "
+read code
